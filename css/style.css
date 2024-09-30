@@ -1,0 +1,82 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    font-family: inherit;
+}
+.color-main{
+    color: #8f8e8ef3 !important;
+}
+
+.bg-nav{
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+/* ////--------------------------------------------///// */
+/* -------------------sign up------------------ */
+.title{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 75%;
+    height: 20vh;
+}
+.sec{
+    height: 86vh;
+}
+/* -------------------index------------------ */
+.collection {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 68%;
+    height: 52vh;
+}
+/* -------------------sign In------------------ */
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 68%;
+    height: 59vh;
+}
+/* ////--------------------------------------------///// */
+.form-control {
+    box-shadow: none !important;
+    background-color: transparent !important;
+    border-radius: 1 !important;
+}
+
+.form-control::placeholder {
+    color: #ffffff96;
+    font-size: 16px;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+form a{
+    color: #17A2B8 !important;
+}
+input{
+    color: #fff !important;
+}
+p {
+   
+    font-weight: 500;
+}
+
+h1 {
+    color: #17A2B8;
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+
+
+@media (min-width: 1400px) {
+    .test {
+      max-width: 1140px;
+    }
+  }
